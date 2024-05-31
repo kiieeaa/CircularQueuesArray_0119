@@ -69,7 +69,7 @@ public: Queues() {
 			  cout << "queue is empty\n";
 
 		  }
-	  
+
 		  cout << "\nElements in the queue are...\n";
 
 
@@ -85,5 +85,17 @@ public: Queues() {
 				  cout << queue_array[FRONT_position] << " ";
 				  FRONT_position++;
 			  }
+
+
+			  FRONT_position = 0;
+
+
+			  while (FRONT_position <= REAR_position) {
+				  cout << queue_array[FRONT_position] << " ";
+				  FRONT_position++;
+			  }
+			  cout << endl;
+		  }
+	  }
 };
 
