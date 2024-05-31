@@ -60,3 +60,16 @@ public: Queues() {
 		  }
 	  }
 
+	  void display() {
+		  int FRONT_position = FRONT;
+		  int REAR_position = REAR;
+
+
+		  if (FRONT == -1) {
+			  cout << "queue is empty\n";
+
+		  }
+	  
+		  cout << "\nElements in the queue are...\n";
+};
+
